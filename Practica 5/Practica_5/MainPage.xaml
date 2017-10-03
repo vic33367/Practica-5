@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Practica_5"
+             x:Class="Practica_5.MainPage"
+             BackgroundColor="#5DADE2">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Name:Alvarez Agapito Victor" FontSize="Large" FontAttributes="Bold" FontFamily="MarkerFelt-Thin" HorizontalOptions="Center" />
+        <Label Text="ID:13090364" FontSize="Large" FontAttributes="Bold" FontFamily="MarkerFelt-Thin" HorizontalOptions="Center" />
+        <Button Text="Siguiente" FontSize="Large" FontAttributes="Bold" BackgroundColor="#3498DB" FontFamily="MarkerFelt-Thin" BorderWidth="5" BorderRadius="10" BorderColor="#2E86C1"  Clicked="Button_Clicked"/>
+    </StackLayout>
+
+    
+
+</ContentPage>
